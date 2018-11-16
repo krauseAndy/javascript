@@ -11,8 +11,6 @@
 
 (function() {
     
-var name = prompt("salut miss, c'est quoi ton petit nom ?");
-
+var name = prompt("Salut miss, c'est quoi ton petit nom ?");
 alert(name);
-
 })();

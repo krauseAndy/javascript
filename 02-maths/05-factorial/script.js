@@ -21,7 +21,7 @@
         for ( var i = nb - 1 ; i >= 1 ; i--){
             nb = nb * i;
         }
-    console.log(nb);
+    alert(nb);
     });
 
 })();

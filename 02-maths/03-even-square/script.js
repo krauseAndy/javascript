@@ -15,7 +15,7 @@
 
         var result = "";
 
-        for( var i=0 ; i<21 ; i++ ){
+        for( var i=1 ; i<=21 ; i++ ){
             if( i%2 == 0){
             result += "le carré de "+i+" est : "+Math.pow(i,2)+"\n";
             }

@@ -11,6 +11,24 @@
 
 (function() {
 
-    // your code here
+    var msg     = "Le nombre a trouvé est entre 1 et 100";
+    var mystere = Math.floor(Math.random()*100);
+    var cpt     = 0;
+    var chiffre = 0;
+    
+    console.log(mystere);
 
+    do{
+        chiffre = prompt(msg);
+        cpt++;
+
+        if(chiffre > mystere){
+            msg = " C'est moins";
+        }else{
+            msg = " C'est plus";
+        }
+    }while(chiffre != mystere);
+        alert("Bienjoué, Tu as trouvé le chiffre en "+cpt+" fois.");
 })();
+
+

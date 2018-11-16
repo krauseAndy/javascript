@@ -21,7 +21,6 @@
             console.log("Fizz");
         }else{
         console.log(i);
-
         }
     }
     

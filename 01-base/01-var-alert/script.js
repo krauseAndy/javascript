@@ -14,13 +14,10 @@
 var age = prompt("C'est quoi ton age ?");
 
 if(age >= 18) {
-
   alert("salut bichon");
 
 }else{
-
   alert("Casse toi");
   
 }
-
 })();

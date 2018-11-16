@@ -38,7 +38,7 @@
 
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
         $btn.addEventListener("click", function() {
-            performOperation($btn.id);
+            performOperation($btn.id);//
         });
     });
 })();

@@ -13,13 +13,10 @@
   var miam = prompt("Est ce que tu veux manger du gateau au chocolat ?");
 
   if(miam == 'oui'){
-  
     alert("Bouffe mon gars, BOUFFE !!");
-  
+    
   } else {
-  
     alert("QUOI ?! Il est mauvais mon gateau ?!");
-  
   }
 
 })();

@@ -15,7 +15,7 @@ var tab = [];
 var sum=0;
 
     for(var i = 0;i < 10; i++){
-    tab[i] = Math.floor(Math.random()*100);
+    tab[i] = Math.floor((Math.random()*100)+1);
     sum = sum+tab[i];
     document.getElementById("n-"+(i+1)).innerHTML=tab[i];
 

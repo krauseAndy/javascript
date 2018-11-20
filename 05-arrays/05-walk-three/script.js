@@ -39,6 +39,12 @@
         },
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener('click', function(){
+
+        const map1 = people.map(function(people){
+            console.log(people.lastname);
+            
+        })
+    })
 
 })();

@@ -16,7 +16,7 @@
 
     document.getElementById("pass-one").addEventListener("input", function() {
 
-        document.getElementById("counter").innerHTML = document.getElementById("pass-one").value.length+"/10";
+    document.getElementById("counter").innerHTML = document.getElementById("pass-one").value.length+"/10";
         
     });
 })();

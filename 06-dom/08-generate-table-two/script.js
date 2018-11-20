@@ -16,11 +16,11 @@
 
     target.appendChild(table_2);
 
-    for( i = 0 ; i < 10  ;i++){
+    for( let i=0 ; i < 10  ;i++){
 
         target.getElementsByTagName("table")[0].insertRow(i);
 
-        for(j=0 ; j < 10; j++){
+        for(let j=0 ; j < 10; j++){
             
             target.getElementsByTagName("tr")[i].insertCell(j).innerHTML =(j+1)*(i+1);
 

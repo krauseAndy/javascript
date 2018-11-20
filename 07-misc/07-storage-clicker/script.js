@@ -11,13 +11,13 @@
 
 (function() {
 
-    var counter_1 = localStorage.getItem("counter");
+    var counter = localStorage.getItem("counter");
     document.getElementById("target").innerHTML = counter;
     
     document.getElementById("increment").addEventListener("click", function() {
         
         if(counter === null){
-            counter=0;
+            counter = 0;
         }else{
             counter++;
         }

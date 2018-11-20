@@ -13,7 +13,7 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-    var nbre = document.getElementById("numbers").value
+    var nbre = document.getElementById("numbers").value;
     var split = nbre.split(', ');
 
     split.sort((a, b)=>(a - b));

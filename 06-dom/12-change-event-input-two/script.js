@@ -10,9 +10,6 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    
-
     document.getElementById("pass-one").addEventListener("input", function() {
 
     var longueur = document.getElementById("pass-one").value.length;
